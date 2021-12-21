@@ -6,3 +6,74 @@
 html {
   font-family: Poppins, sans-serif;
   font-size: 16px; }
+
+h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 150%;
+  text-align: center; }
+
+h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 155%;
+  font-weight: bolder;
+  text-align: center; }
+
+.parrafoUno {
+  font-family: Poppins, sans-serif;
+  font-size: 35%;
+  text-align: center;
+  padding-top: 0.5%; }
+
+.parrafoDos {
+  font-family: Poppins, sans-serif;
+  font-size: 35%;
+  text-align: center;
+  margin-top: -1%; }
+
+.imgIcono {
+  width: 15%;
+  padding-top: 5%;
+  height: auto;
+  align-self: end;
+  margin-right: 15%; }
+
+.card {
+  width: 29%;
+  height: auto;
+  border-width: 3px;
+  border-radius: 6px;
+  margin-bottom: 5%;
+  padding-bottom: 3%;
+  border-top: solid;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  border-top-width: 3px; }
+
+.cardTitle {
+  font-family: Poppins, sans-serif;
+  font-size: 90%;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-left: 5%; }
+
+.cardText {
+  font-family: Poppins, sans-serif;
+  font-size: 85%;
+  color: #a3a5ae;
+  padding-left: 5%;
+  padding-top: 3%;
+  margin-right: 20%; }
+
+.cardTeamBuilder {
+  border-top-color: #ea5353; }
+
+.cardSupervisor {
+  border-top-color: #45d3d3; }
+
+.cardKarma {
+  border-top-color: #fcaf4a; }
+
+.cardCalculator {
+  border-top-color: #549ef2; }
