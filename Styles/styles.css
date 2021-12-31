@@ -7,6 +7,10 @@ html {
   font-family: Poppins, sans-serif;
   font-size: 16px; }
 
+.inicio {
+  display: flex;
+  flex-direction: column; }
+
 h1 {
   font-family: Poppins, sans-serif;
   font-size: 150%;
@@ -18,17 +22,22 @@ h2 {
   font-weight: bolder;
   text-align: center; }
 
+.subtitulo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+  color: darkgray; }
+
 .parrafoUno {
   font-family: Poppins, sans-serif;
-  font-size: 35%;
+  font-size: 55%;
   text-align: center;
   padding-top: 0.5%; }
 
 .parrafoDos {
   font-family: Poppins, sans-serif;
-  font-size: 35%;
-  text-align: center;
-  margin-top: -1%; }
+  font-size: 55%;
+  text-align: center; }
 
 .imgIcono {
   width: 15%;
@@ -69,27 +78,56 @@ h2 {
 
 .cardTeamBuilder {
   border-top-color: #ea5353;
+  justify-self: center;
   align-self: center;
-  margin: auto; }
+  padding-bottom: 5%; }
 
 .cardSupervisor {
   border-top-color: #45d3d3;
   grid-row: 1 / 3;
   grid-column: 1 / 2;
+  padding-bottom: 5%;
   align-self: center;
-  justify-self: end; }
+  justify-self: flex-end; }
 
 .cardKarma {
   border-top-color: #fcaf4a;
   grid-row: 2;
   grid-column: 2;
-  margin: auto;
-  margin-top: 15%;
-  align-self: center; }
+  justify-self: center;
+  padding-bottom: 5%;
+  margin-top: 10%; }
 
 .cardCalculator {
   border-top-color: #549ef2;
   grid-row: 1 / 3;
   grid-column: 3 / 4;
-  align-self: center;
-  justify-self: start; }
+  padding-bottom: 5%;
+  align-self: center; }
+
+.attribution {
+  margin-top: 4%;
+  margin-left: 2%;
+  font-size: 70%; }
+
+@media only screen and (max-width: 375px) {
+  h1 {
+    font-size: 100%; }
+  h2 {
+    font-size: 105%; }
+  .parrafoUno {
+    font-size: 45%; }
+  .parrafoDos {
+    font-size: 45%; }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%; }
+  .card {
+    margin-top: 5%; }
+  .cardkarma {
+    justify-content: center; }
+  .attribution {
+    text-align: center; } }
